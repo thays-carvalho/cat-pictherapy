@@ -20,18 +20,20 @@
     <main>
         <section class="galery">
             <div class="title-content">
-                <h3 style="margin-left: 30px;"><a href="index.html" style="text-decoration: none;">Home</a> > Galeria</h3>
-                <h1><span style="color: aquamarine;"> | </span>Minha galeria</h1>
+                <h3 style="margin-left: 30px;"><a href="index.html" style="text-decoration: none;">Home</a> > Galeria
+                </h3>
+                <h1><span class="details"> | </span>Minha galeria</h1>
                 <p>Personalize sua galeria com suas imagens e gifs favoritos</p>
             </div>
             <div class="add-galery">
                 <button onclick="openModal('#add-pic')">+</button>
+                <div id="imgrid" class="imgrid"></div>
             </div>
         </section>
 
         <section class="explorer">
             <div class="title-content">
-                <h1><span style="color: aquamarine;"> | </span>Explorar</h1>
+                <h1><span class="details"> | </span>Explorar</h1>
             </div>
             <div class="main-content">
                 <div id="grid" class="grid"></div>
@@ -40,20 +42,34 @@
                 </div>
             </div>
         </section>
+
+
+        <div class="modal" id="add-pic">
+            <div class="modal-content">
+                <h2>Adicionar na galeria</h2>
+                <button class="btn-close" onclick="closeModal('#add-pic')">x</button>
+                <div id="vote-options" class="vote-options">
+                    <button onClick="vote(1)">Gostei</button>
+                    <button onClick="vote(-1)">Não gostei</button>
+                    <button onClick="showHistoricVotes()">Histórico</button>
+
+                    <div>
+                        <img id="image-to-vote-on" class="col-lg"></img>
+                    </div>
+
+                </div>
+
+                <div id="vote-results" class="vote-results">
+                    <button onClick="showVoteOptions()">Show Vote Options</button>
+                    
+                </div>
+            </div>
+            <div>
+
     </main>
     <footer>
 
     </footer>
-
-    <div class="modal" id="add-pic">
-        <div class="modal-content">
-            <h2>Adicionar na galeria</h2>
-            <button class="btn-close" onclick="closeModal('#add-pic')
-            ">x</button>
-            
-        </div>
-    <div>
-
     <script src="js/main.js"></script>
 
 </body>
