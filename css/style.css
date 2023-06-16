@@ -232,6 +232,7 @@ body {
     margin: 10px 0;
     position: relative;
     flex-basis: 30%;
+    margin: 15px;
 }
 
 .add-galery .col-lg img {
@@ -247,8 +248,6 @@ body {
 }
 
 .add-galery .imgrid {
-    margin: 30px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
