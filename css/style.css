@@ -5,9 +5,9 @@ body {
 }
 
 body {
-    background: #ffffff;
+    background: #f0f0f0;
     color: #030303;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .img-container img {
@@ -39,7 +39,7 @@ body {
 }
 
 .highlight {
-    background-color: #f5e9dc;
+    background-color: #ffd9b1;
 }
 
 .about a {
@@ -65,8 +65,9 @@ body {
 
 #main-header {
     height: 100px;
-    background: #f5e9dc;
+    background: #f0f0f0;
     padding: 0 20px;
+    border-bottom: 2px solid #cecece;
 }
 
 #main-header h1 {
@@ -90,6 +91,32 @@ body {
     padding-left: 0%;
 }
 
+.pag{
+    margin: 30px;
+
+}
+
+.pag h3{
+    display: flex;
+    align-items: center;
+}
+
+.pag a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pag a:visited{
+     color: #000;
+}
+
+.pag img{
+    height: 25px;
+    margin-right: 10px;
+}
+
 .title-content h1 {
     padding-left: 30px;
     font-size: 40px;
@@ -109,6 +136,7 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    background: #bbbbbb;
 }
 
 .col {
