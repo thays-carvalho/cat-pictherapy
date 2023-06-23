@@ -45,7 +45,7 @@ function showHistoricVotes() {
         const imageData = voteData.image
 
         let image = document.createElement('img');
-        //use the url from the image object
+    
         image.src = imageData.url
 
         let gridCell = document.createElement('div');
@@ -118,7 +118,6 @@ function vote(value) {
 }
 
 showVoteOptions()
-
 
 // conteúdo explorar
 

@@ -22,7 +22,7 @@
             <div class="title-content">
                 <div class="pag">
                     <h3>
-                        <a href="index.html"><img src="img/home.svg" alt="Logo CatPicTherapy"> HOME </a>  > GALERIA
+                        <a href="index.html"><img src="img/home.svg" alt="Logo CatPicTherapy"> HOME </a> > GALERIA
                     </h3>
                 </div>
                 <h1><span class="details"> | </span>Minha galeria</h1>
@@ -46,7 +46,6 @@
             </div>
         </section>
 
-
         <div class="modal" id="add-pic">
             <div class="modal-content">
                 <h2>Adicionar na galeria</h2>
@@ -54,7 +53,7 @@
                 <div id="vote-options" class="vote-options">
                     <button onClick="vote(1)">Gostei</button>
                     <button onClick="vote(-1)">Não gostei</button>
-                    <button onClick="showHistoricVotes()">Histórico</button>
+                    <button onClick="showHistoricVotes(closeModal('#add-pic'))">Ir para a galeria</button>
 
                     <div>
                         <img id="image-to-vote-on" class="col-lg"></img>
@@ -70,11 +69,8 @@
             <div>
 
     </main>
-    <footer>
-
-    </footer>
+ 
     <script src="js/main.js"></script>
 
 </body>
-
 </html>

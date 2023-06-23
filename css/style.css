@@ -11,10 +11,10 @@ body {
 }
 
 .img-container img {
-    width: 40%;
+    width: 53%;
     float: left;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-left: 2%;
     padding: 2%;
 }
 
@@ -23,9 +23,10 @@ body {
 }
 
 .about p {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     padding-right: 41%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about h1 {
@@ -91,28 +92,27 @@ body {
     padding-left: 0%;
 }
 
-.pag{
+.pag {
     margin: 30px;
-
 }
 
-.pag h3{
+.pag h3 {
     display: flex;
     align-items: center;
 }
 
-.pag a{
+.pag a {
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.pag a:visited{
-     color: #000;
+.pag a:visited {
+    color: #000;
 }
 
-.pag img{
+.pag img {
     height: 25px;
     margin-right: 10px;
 }
@@ -124,19 +124,20 @@ body {
 }
 
 .title-content p {
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 30px;
     padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .galery button {
-    padding: 70px;
+    padding: 50px;
     margin-left: 30px;
     font-size: 50px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background: #bbbbbb;
+    background: aquamarine;
 }
 
 .col {
